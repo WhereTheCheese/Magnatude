@@ -35,5 +35,6 @@ def analyze_sdss_data(csv_file):
 
 # Example usage:
 if __name__ == "__main__":
-    csv_filename = "MyTable_WhereTheCheese.csv"  # Replace with your CSV file name
+    print("What is the name of the CSV file?")
+    csv_filename = input() 
     analyze_sdss_data(csv_filename)
